@@ -18,7 +18,7 @@ class Utama extends CI_Controller {
         $this->load->view('header_utama');
 
         // dashboard
-        $this->load('dashboard.html');
+        $this->load-view('dash-utama');
 
         // footer
         // $this->load->view('footer');
